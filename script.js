@@ -13,6 +13,7 @@ const facts = [
 ]
 
 let day;
+console.log(new Date().getDay())
 
 switch (new Date().getDay()) {
 	case 1:
@@ -39,7 +40,7 @@ switch (new Date().getDay()) {
 	day = "Sobota";
 	break;
 
-	case 7:
+	case 0:
 	day = "Niedziela";
 }
 
